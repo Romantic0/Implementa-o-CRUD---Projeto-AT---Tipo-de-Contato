@@ -1,3 +1,9 @@
+
+@extends('layouts.app')
+
+@section('title', 'Lista de Tipos')
+
+@section('content') 
 <a href="{{ route('tipo-contatos.create') }}">+ Novo Tipo de Contato</a>
 <br><br>
 
@@ -27,3 +33,4 @@
         @endforeach
     </tbody>
 </table>
+@endsection

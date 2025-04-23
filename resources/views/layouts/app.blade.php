@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>@yield('title', 'Minha Aplicação')</title>
+    <title>@yield('title', 'Sistema')</title>
+    <link rel="stylesheet" href="{{ asset('../css/style.css') }}">
 </head>
 <body>
-    <div class="container">
+    <header>
+        <h1>Sistema de Tipos de Contato</h1>
+    </header>
+
+    <main>
         @yield('content')
-    </div>
+    </main>
+
+   
 </body>
 </html>

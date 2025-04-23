@@ -10,7 +10,7 @@
                 <li>{{ $erro }}</li>
             @endforeach
         </ul>
-    </div>
+    </div>a
 @endif
 
 <form action="{{ route('tipo-contatos.update', $tipoContato->id) }}" method="POST">
